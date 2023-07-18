@@ -1,0 +1,23 @@
+{
+  "name": "to-do-crud",
+  "version": "1.0.0",
+  "description": "A simple To-Do list app using CRUD operations on a local postgres database",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.0.0"
+  }
+}
