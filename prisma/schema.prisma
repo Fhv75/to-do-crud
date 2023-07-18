@@ -8,7 +8,7 @@ datasource db {
 }
 
 model task {
-  id          Int      @id @default(autoincrement())
-  title       String   @db.VarChar
-  isdone      Boolean? @default(false)
+  id     Int      @id @default(autoincrement())
+  title  String   @db.VarChar
+  isdone Boolean? @default(false)
 }
